@@ -1,12 +1,5 @@
 // FUNCTION IMPLEMENTATION
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    return `✅ Assertion passed. ${actual} === ${expected}`;
-  } else if (actual !== expected) {
-    return `🛑 Assertion failed. ${actual} !== ${expected}`;
-  }
-};
-
+const assertEqual = require("./assertEqual");
 const head = function (array) {
   return array[0];
 };
