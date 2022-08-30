@@ -4,4 +4,4 @@ const head = function (array) {
   return array[0];
 };
 
-assertEqual(head)[5];
+module.exports = head;
