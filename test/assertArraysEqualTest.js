@@ -1,4 +1,4 @@
-const eqArrays = require("./eqArrays");
+const assertEqual = require("../assertArraysEqual");
 
 // const eqArrays = function (arr1, arr2) {
 //   if (arr1.length !== arr2.length) {
